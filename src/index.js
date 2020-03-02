@@ -1,12 +1,9 @@
 module.exports = function reverse (n) {
-    var digit = 0;
-    var result = 0;
+    var arr = [];
 
-    while( n ){
-        digit = n % 10                  
-        result = (result * 10) + digit  
-        n = n/10|0                      
-    }  
-  
-    return result  
+    for (var i = 0; i < n.length; i++) {
+        arr[i] = n.charAt(i);
+    }
+	arr.reverse();
+	alert(arr); 
 }
