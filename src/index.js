@@ -1,9 +1,12 @@
-module.exports = function reverse (n) {
-    var arr = [];
+function reverseInt(n){
+    parseFloat(
+        n
+          .toString()
+          .split('')
+          .reverse()
+          .join('')
+              )             
+      * Math.sign(n)
 
-    for (var i = 0; i < n.length; i++) {
-        arr[i] = n.charAt(i);
-    }
-	arr.reverse();
-	alert(arr); 
+    return n
 }
