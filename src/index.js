@@ -1,4 +1,5 @@
-function reverseInt(n) {
-  const reversed = n.toString().split('').reverse().join(''); 
-  return Math.sign(n) * parseInt(reversed);
+function reverseInt(n){
+    n = n + "";
+    n.split("").reverse().join("");
+    return n
 }
