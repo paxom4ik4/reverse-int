@@ -4,5 +4,5 @@ module.exports = function reverseInt(n){
     let mas = str.split("");
     let rev = mas.reverse().join("");
     regits = Number(rev);
-    return(n);;
+    return(n);
 }
