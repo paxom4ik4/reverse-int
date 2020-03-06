@@ -1,11 +1,4 @@
 function reverseInt(n) {
-	return (
-    parseFloat(
-      n
-        .toString()
-        .split('')
-        .reverse()
-        .join('')
-    ) * Math.sign(num)
-  )
+  const reversed = n.toString().split('').reverse().join(''); 
+  return Math.sign(n) * parseInt(reversed);
 }
