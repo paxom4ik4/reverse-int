@@ -1,8 +1,5 @@
-module.exports = function reverseInt(n){
-    let str1 = Math.abs(n);
-    let str = String(str1);
-    let mas = str.split("");
-    let rev = mas.reverse().join("");
-    regits = Number(rev);
-    return(n);
+module.exports = function reverse(n) {
+    n = Math.sqrt(Math.pow(n, 2));
+    var res = +(n + '').split('').reverse().join('');
+    return res;
 }
